@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="images/logo.png" alt="html logo" />
+        <a class="name" href="https://ashtonglover.github.io/ashtonglover/"
+          >Ashton Glover</a
+        >
+      </div>
+    </div>
+
+    <div class="header">
+      <h1>Responsive Redesign</h1>
+    </div>
+
+    <div class="cards">
+      <div id="choosing" class="project-card">
+        <h2>Choosing My Site</h2>
+        <p>
+          For this project, I wanted to choose an outdated website and utilize
+          my design skills to reformat the site in a more intuitive, modern
+          format. My mind immediately went in the direction of town websites, as
+          many of them are extremely outdated and old. I then discovered
+          Eutawville, one of the least populated towns in my home state of South
+          Carolina. The current site,
+          <a href="https://www.eutawvillesc.org/" target="_blank"
+            >https://www.eutawvillesc.org/</a
+          >, looks like below:
+        </p>
+        <img src="images/original.png" alt="original site" />
+        <p>
+          Based on this, I identified the following issues with the current
+          design:
+        </p>
+        <ul>
+          <li>
+            Currently the page lacks any real organization. Most of the
+            information is just scattered all over the page without any clear
+            hierarchy or organization.
+          </li>
+          <li>
+            The nav-bar has really poor contrast with its hover effect. It is
+            difficult to see the sub-headings when the hover highlight also
+            exists.
+          </li>
+          <li>
+            The page is not designed to fit on a screen with a large width;
+            there's just empty space to the left and right.
+          </li>
+          <li>
+            The WebAIM WAVE tool noted many issues with contrast as I discussed
+            above. Otherwise, it mostly just noticed areas with missing alt text
+            and text-size issues, as well as areas where there was underlined
+            text. I agree with these problems, especially the contrast issues.
+          </li>
+        </ul>
+      </div>
+
+      <div id="redesigning" class="project-card">
+        <h2>Redesigning</h2>
+        <p>
+          After evaluating the website's current issues as described above, I
+          turned to Figma to work on a redesign to address the issues and
+          improve the overall look of the page. I designed a version of the page
+          for large computers, tablets, and mobile devices, all of which are
+          within the Figma file embedded below.
+        </p>
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1)"
+          width="800"
+          height="500"
+          src="https://embed.figma.com/design/xjlwrAVM2kTMsExGnfa5qS/Redesign?node-id=0-1&embed-host=share"
+          allowfullscreen
+        ></iframe>
+        <p>
+          The key changes between the different screen sizes are listed below:
+        </p>
+        <ul>
+          <li>
+            The mobile nav-bar is in the hamburger style, where the options
+            expand after clicking on the button. The tablet and desktop versions
+            opt for the more traditional nav-bar with elements horizontally
+            arranged along the top of the screen.
+          </li>
+          <li>
+            The contact information for the mobile version is in column format
+            rather than row to allow for better spacing.
+          </li>
+          <li>Font sizes get increasingly larger for larger screen sizes.</li>
+        </ul>
+
+        <p>
+          When making changes to the website, I sought to improve on the user
+          experience while keeping the content the same. I wanted users to be
+          able to access the same information, just in a much more accessible
+          way. To do this, I did the following:
+        </p>
+        <ul>
+          <li>
+            I organized the information into three major categories, town
+            information, payment, and contact information, and then presented
+            that information as its own block within an overall column.
+          </li>
+          <li>
+            I also improved the contrast on the nav-bar hover effect, making it
+            much easier for a user to determine when they were hovering over a
+            certain element.
+          </li>
+          <li>
+            Furthermore, I made the page fit the entire screen, removing the
+            white space on the sides of the original.
+          </li>
+          <li>I also made sure to add alt text where appropriate.</li>
+        </ul>
+        <p>
+          With all of these changes, I hope a user would be able to better
+          navigate the page and locate whatever information they are hoping to
+          find. Additionally, by improving contrast, users should also be
+        </p>
+      </div>
+
+      <div id="final-product" class="project-card">
+        <h2>Final Product</h2>
+        <p>
+          Keeping all of this in mind, I utilized HTML and CSS to build a
+          functioning prototype of the new website. This website can be accessed
+          at
+          <a href="https://ashtonglover.github.io/eutawville-redesign/" target="_blank"
+            >https://ashtonglover.github.io/eutawville-redesign/</a
+          >. The website is designed to be responsive, so it should work on any screen size. 
+        </p>
+
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1)"
+          width="800"
+          height="500"
+          src="https://ashtonglover.github.io/eutawville-redesign/"
+          allowfullscreen
+          allow="fullscreen"
+        ></iframe>
+
+        <p> The above is an embedded version of the website just to get a quick overview. It shows the page with many of the mobile features due to the reduced width, such as the hamburger nav-bar and column format for the contact information. To view all of the different states for the website, click the link. </p>
+      </div>
+    </div>
+  </body>
+</html>
